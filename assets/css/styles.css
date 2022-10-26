@@ -284,6 +284,68 @@
 }
 /* Bootcamps/Education section */
 
+
+/* CurrentBootcamps/Education section */
+.currentBootcamp {
+  background-color: var(--bg-color);
+  padding: 32px 0;
+  margin-top: 2rem;
+}
+
+.currentBootcamp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.currentBootcamp-pic {
+  width: 100%;
+  height: 60%;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+
+.currentBootcamp-title {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.currentBootcamp-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+
+.currentBootcamp-container p {
+  padding: 0.4rem;
+}
+
+.currentBootcamp-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.currentBootcamp-status {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: red;
+}
+
+.currentBootcamp-details {
+  margin-bottom: var(--bottom-margin);
+}
+
+.currentBootcamp-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+/* CurrentBootcamps/Education section */
+
+
   .contact {
     margin-top: 2rem;
   }
